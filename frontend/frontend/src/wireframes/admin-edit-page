@@ -1,0 +1,17 @@
+---------------------------------------------------------
+| Nav: [Dashboard] [Add New Figure] [Logout]            |
+|-------------------------------------------------------|
+| Name: [Text Input]                                    |
+| Field/Category: [Dropdown: Civil Rights, Science...]  |
+| Birth Date: [Date Picker]                             |
+| Death Date: [Date Picker] (optional)                  |
+| Month: [Dropdown: 1-12]                               |
+| Year: [Dropdown: 2025+]                               |
+| Biography: [Multiline Text Area]                      |
+| Achievements: [Dynamic List Input + Add More Button]  |
+| Main Image: [Upload or URL Input]                     |
+| Video Link: [URL Input] (optional)                    |
+| Quotes: [Dynamic List Input + Add More Button]        |
+|                                                       |
+| [Save Figure Button] [Cancel]                         |
+---------------------------------------------------------

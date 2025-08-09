@@ -1,0 +1,20 @@
+---------------------------------------------------------
+| Nav: [Dashboard] [Add New Figure] [Logout]            |
+|-------------------------------------------------------|
+| Header: Current Month Figure                          |
+|                                                       |
+| Name: Martin Luther King Jr.                          |
+| Month/Year: Jan 2025                                  |
+| Status: Published                                     |
+| [Edit Button] [Delete Button]                         |
+|-------------------------------------------------------|
+| Archive of All Figures (Table View)                   |
+|-------------------------------------------------------|
+| | Name                    | Month-Year | Actions    | |
+| |-------------------------|------------|-----------| |
+| | Rosa Parks              | Dec 2024   | Edit/Delete| |
+| | Harriet Tubman          | Nov 2024   | Edit/Delete| |
+| | ...                                                   
+|-------------------------------------------------------|
+| Pagination: [Prev] [1] [2] [Next]                     |
+---------------------------------------------------------
