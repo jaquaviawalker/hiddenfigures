@@ -26,3 +26,11 @@ CREATE TABLE quotes (
     text TEXT, -- The quote itself 
     source TEXT -- The source of the quote 
 );
+
+CREATE TABLE admin(
+    id SERIAL PRIMARY KEY, 
+    username VARCHAR(50),
+    password VARCHAR(64),
+    firstName TEXT,
+    lastName TEXT
+);
