@@ -1,14 +1,14 @@
-        const { db } = require('pg');
+        const { Pool } = require('pg');
 
-        const db = new DB({
+        const pool = new Pool({
             host: 'localhost',
             port: 5432,
             database: 'hiddenfigures'
         });
 
-        db.connect()
+        pool.connect()
             .then(() => console.log('Connected to PostgreSQL'))
             .catch(err => console.error('Connection error', err.stack));
 
-       module.exports = { db }
+       module.exports = { pool }
 
