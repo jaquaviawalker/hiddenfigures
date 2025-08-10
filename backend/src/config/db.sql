@@ -22,7 +22,7 @@ CREATE TABLE figures (
 
 CREATE TABLE quotes (
     id SERIAL PRIMARY KEY,
-    figure_id FOREIGN KEY, -- References figues.id
+    FOREIGN KEY (id) REFERENCES figures(id),
     text TEXT, -- The quote itself 
     source TEXT -- The source of the quote 
 );

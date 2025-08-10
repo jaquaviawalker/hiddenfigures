@@ -1,6 +1,8 @@
     const express = require('express');
     const app = express();
     const port = 3000;
+    const { db } = require('config/db.js')
+
 
     // Define a basic route
     app.get('/', (req, res) => {
