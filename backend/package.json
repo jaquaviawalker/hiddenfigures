@@ -2,8 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:unit": "NODE_OPTIONS=--experimental-vm-modules jest src/tests/unit/",
+    "test:integration": "NODE_OPTIONS=--experimental-vm-modules jest src/tests/integration/",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
     "dev": "nodemon"
   },
   "keywords": [],
