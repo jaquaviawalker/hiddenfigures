@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt';
-import { pool } from '../config/db';
+import { pool } from '../config/db.js';
 
 /**
  * Creates a new admin user in the database
